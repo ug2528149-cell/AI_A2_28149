@@ -1,0 +1,61 @@
+{
+  "verification_code": "AI-A2-8149",
+  "target": "high_risk",
+  "positive_class": 1,
+  "test_rows": 55,
+  "metrics": {
+    "majority_baseline": {
+      "accuracy": 0.509090909090909,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          28,
+          0
+        ],
+        [
+          27,
+          0
+        ]
+      ],
+      "roc_auc": 0.5
+    },
+    "logistic_regression": {
+      "accuracy": 0.9454545454545454,
+      "precision": 0.9615384615384616,
+      "recall": 0.9259259259259259,
+      "f1": 0.9433962264150944,
+      "confusion_matrix": [
+        [
+          27,
+          1
+        ],
+        [
+          2,
+          25
+        ]
+      ],
+      "roc_auc": 0.9894179894179894
+    },
+    "random_forest": {
+      "accuracy": 0.9454545454545454,
+      "precision": 0.9615384615384616,
+      "recall": 0.9259259259259259,
+      "f1": 0.9433962264150944,
+      "confusion_matrix": [
+        [
+          27,
+          1
+        ],
+        [
+          2,
+          25
+        ]
+      ],
+      "roc_auc": 0.9788359788359788
+    }
+  },
+  "selected_model": "logistic_regression",
+  "selection_reason": "Highest held-out test F1; ROC-AUC breaks ties."
+}

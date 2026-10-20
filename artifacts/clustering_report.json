@@ -1,0 +1,43 @@
+{
+  "verification_code": "AI-A2-8149",
+  "features": [
+    "rainfall_mm",
+    "avg_temp_c",
+    "soil_moisture_pct",
+    "fertilizer_kg",
+    "field_size_ha",
+    "cooperative_support",
+    "season"
+  ],
+  "silhouette_scores": {
+    "2": 0.15861173552701954,
+    "3": 0.13308651187788603,
+    "4": 0.14715883673291288,
+    "5": 0.13841460029185454,
+    "6": 0.13277476826557064
+  },
+  "selected_k": 2,
+  "selection_reason": "Highest silhouette score among K=2 through K=6.",
+  "cluster_profiles": {
+    "0": {
+      "rainfall_mm": 1040.7451945945945,
+      "avg_temp_c": 18.54476824324324,
+      "soil_moisture_pct": 50.40264751773049,
+      "fertilizer_kg": 133.47778014184397,
+      "field_size_ha": 2.0395925675675675,
+      "cooperative_support": 0.0,
+      "season": "A",
+      "farm_count": 148
+    },
+    "1": {
+      "rainfall_mm": 1034.2817577235771,
+      "avg_temp_c": 18.96330731707317,
+      "soil_moisture_pct": 50.34451465517242,
+      "fertilizer_kg": 118.40658965517243,
+      "field_size_ha": 2.1171422764227636,
+      "cooperative_support": 1.0,
+      "season": "A",
+      "farm_count": 123
+    }
+  }
+}

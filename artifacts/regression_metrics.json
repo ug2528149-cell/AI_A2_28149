@@ -1,0 +1,24 @@
+{
+  "verification_code": "AI-A2-8149",
+  "target": "yield_tons",
+  "test_rows": 55,
+  "metrics": {
+    "mean_baseline": {
+      "mae": 2.1302720370370367,
+      "rmse": 2.535483847740382,
+      "r2": -0.019240079803562127
+    },
+    "linear_regression": {
+      "mae": 0.8042742031299153,
+      "rmse": 0.9467114817653058,
+      "r2": 0.857901306363866
+    },
+    "random_forest": {
+      "mae": 1.0373970909834285,
+      "rmse": 1.2721326894802034,
+      "r2": 0.7434218779980111
+    }
+  },
+  "selected_model": "linear_regression",
+  "selection_reason": "Lowest held-out test MAE among the evaluated models."
+}

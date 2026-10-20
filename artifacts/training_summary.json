@@ -1,0 +1,8 @@
+{
+  "verification_code": "AI-A2-8149",
+  "train_rows": 216,
+  "test_rows": 55,
+  "selected_regression_model": "linear_regression",
+  "selected_classification_model": "logistic_regression",
+  "selected_cluster_count": 2
+}

@@ -7,7 +7,7 @@ Registration number: 25/28149
 Institutional username: ug2528149@ines.ac.rw
 Verification code: AI-A2-8149
 Assignment: Musanze Harvest Intelligence Service
-Repository URL: [Enter your repository URL, or state "Not applicable" if not using a repository]
+Repository URL: https://github.com/ug2528149-cell/AI_A2_28149.git
 Final commit hash: [Enter your final Git commit hash, or state "Not applicable" if not using Git]
 2. Project Overview
 
